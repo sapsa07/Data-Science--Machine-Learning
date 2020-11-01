@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "name": "Marieke van Erp", 
+      "email": "marieke.van.erp@vu.nl"
+    }
+  ], 
+  "description": "Automatically extracted information from 64,540 English news articles about the global automotive industry. The dataset contains extracted events with their participants and locations. The data contains links to DBpedia for entities and provenance information as to in what source the event was mentioned. The entities and events in the Wikinews articles are structured using the Simple Event Model ([SEM](http://wordpress.let.vupr.nl/sem/)) and the grounded annotation framework ([GAF](http://groundedannotationframework.org)). \r\n\r\n\r\nThe dataset contains: \r\n\r\n* 1,784,532 Events\r\n* 445,286 Actors\r\n* 62,255 Locations\r\n\r\nThis dataset was created in [NewsReader project  (ICT-316404)](http://www.newsreader-project.eu), funded by the European Union's 7th Framework Programme. ", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/cc-by-sa", 
+    "type": "cc-by-sa", 
+    "title": "Creative Commons Attribution Share-Alike"
+  }, 
+  "title": "Global Automotive Industry News", 
+  "keywords": [
+    "cars", 
+    "global automotive industry", 
+    "news"
+  ], 
+  "resources": [
+    {
+      "path": "http://kyoto.let.vu.nl/~vossen/nwr/data/cars-trig.tar.gz", 
+      "title": "Cars Trig ", 
+      "description": "Tar containing the complete cars dataset (381MB).  Each trig file contains events from a single date. The text of the news articles is not available but the article can be looked up. ", 
+      "name": "cars-trig", 
+      "format": "application/x-trig"
+    }, 
+    {
+      "path": "https://ckannet-storage.commondatastorage.googleapis.com/2014-05-07T09:04:04.975Z/example.trig", 
+      "title": "Example", 
+      "description": "Example trig file from the global automotive industry containing all 24 March 2006 events found in our dataset. ", 
+      "name": "example", 
+      "format": "application/x-trig"
+    }
+  ], 
+  "name": "global-automotive-industry-news"
+}
